@@ -96,6 +96,11 @@
     <Content Include="images\arrowRight.png" />
     <Content Include="images\loading.gif" />
     <Content Include="javascripts\DefaultJS.js" />
+    <Content Include="Logowanie.aspx" />
+    <Content Include="Rejestracja.aspx" />
+    <Content Include="SzczegolyView.aspx" />
+    <Content Include="tajne\TajnaStrona.aspx" />
+    <Content Include="tylkoAdmin\Tajne.aspx" />
     <Content Include="Web.config" />
     <Content Include="ZawodnicyServer.aspx" />
   </ItemGroup>
@@ -107,7 +112,42 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Logowanie.aspx.cs">
+      <DependentUpon>Logowanie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logowanie.aspx.designer.cs">
+      <DependentUpon>Logowanie.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rejestracja.aspx.cs">
+      <DependentUpon>Rejestracja.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rejestracja.aspx.designer.cs">
+      <DependentUpon>Rejestracja.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SzczegolyView.aspx.cs">
+      <DependentUpon>SzczegolyView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SzczegolyView.aspx.designer.cs">
+      <DependentUpon>SzczegolyView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tajne\TajnaStrona.aspx.cs">
+      <DependentUpon>TajnaStrona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tajne\TajnaStrona.aspx.designer.cs">
+      <DependentUpon>TajnaStrona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tylkoAdmin\Tajne.aspx.cs">
+      <DependentUpon>Tajne.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tylkoAdmin\Tajne.aspx.designer.cs">
+      <DependentUpon>Tajne.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ZawodnicyServer.aspx.cs">
       <DependentUpon>ZawodnicyServer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -160,6 +200,8 @@
     <Content Include="assets\scss\now-ui-dashboard\_typography.scss" />
     <Content Include="assets\scss\now-ui-dashboard\_variables.scss" />
     <None Include="packages.config" />
+    <Content Include="tajne\Web.config" />
+    <Content Include="tylkoAdmin\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

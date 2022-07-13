@@ -28,7 +28,7 @@
                             { %>
 
                             <tr>
-                                <td><%= z.ImieNazwisko %></td>
+                               <td><a href="SzczegolyView.aspx?id=<%= z.Id %>"> <%=z.ImieNazwisko %></a></td>
                                 <td><%=z.Kraj %></td>
                                 <td><%=z.Wzrost %></td>
                                 <td><%=z.DataUrFormat %></td>
