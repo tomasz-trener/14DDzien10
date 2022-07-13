@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01WstepAjax", "P01WstepAjax\P01WstepAjax.csproj", "{CD039BFB-45A6-4FBE-96E2-0ADC6885C302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02AplikacjaZawodnicy", "P02AplikacjaZawodnicy\P02AplikacjaZawodnicy.csproj", "{9401EC7F-BB8B-4E2D-BBB8-E74DBF2490FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD039BFB-45A6-4FBE-96E2-0ADC6885C302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD039BFB-45A6-4FBE-96E2-0ADC6885C302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD039BFB-45A6-4FBE-96E2-0ADC6885C302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD039BFB-45A6-4FBE-96E2-0ADC6885C302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9401EC7F-BB8B-4E2D-BBB8-E74DBF2490FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9401EC7F-BB8B-4E2D-BBB8-E74DBF2490FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9401EC7F-BB8B-4E2D-BBB8-E74DBF2490FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9401EC7F-BB8B-4E2D-BBB8-E74DBF2490FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {517AF607-DB93-479B-8BDE-A1C7915DFEF3}
+	EndGlobalSection
+EndGlobal
