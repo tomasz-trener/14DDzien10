@@ -154,13 +154,16 @@
             <div class="panel-header panel-header-sm">
             </div>
             <div class="content">
-                <div id="dvZawodnicyContent" class="row">
 
-                    <div class="col-md-12">
+                <div style="display:none" id="dvLadowanie" class="col-md-12">
                         <div class="card" style="text-align:center; padding:15px">
                             <img src="images/loading.gif" style="width:100px" />
                         </div>
                     </div>
+
+                <div id="dvZawodnicyContent" class="row">
+
+                    
 
                 </div>
             </div>

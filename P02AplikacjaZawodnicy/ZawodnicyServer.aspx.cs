@@ -17,7 +17,7 @@ namespace P02AplikacjaZawodnicy
         public int AktualnaStrona;
         protected void Page_Load(object sender, EventArgs e)
         {
-            //  Thread.Sleep(4000);
+              Thread.Sleep(1000);
             AktualnaStrona = Convert.ToInt32(Request["nrStrony"]);
 
             ZawodnicyRepository zr = new ZawodnicyRepository();
