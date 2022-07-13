@@ -108,8 +108,8 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navigation">
                         <form>
                             <div class="input-group no-border">
-                                <input type="text" value="" class="form-control" placeholder="Search...">
-                                <div class="input-group-append">
+                                <input id="txtFiltr" type="text" value="" class="form-control" placeholder="Search...">
+                                <div id="btnSzukaj" class="input-group-append">
                                     <div class="input-group-text">
                                         <i class="now-ui-icons ui-1_zoom-bold"></i>
                                     </div>

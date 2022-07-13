@@ -10,6 +10,26 @@ $(document).ready(function () {
   //  $("#dvZawodnicyContent #dvLadowanie").show();
 
     zaladujZawodnikow(1);
+
+    $("#btnSzukaj").click(function () {
+        $("#dvLadowanie")
+            .clone()
+            .show()
+            .prependTo("#dvZawodnicyContent");
+        zaladujZawodnikow(1);
+    });
+
+    $("#txtFiltr").on('keydown', function (e) {
+        if (e.key === 'Enter' || e.keyCode === 13) {
+            e.preventDefault();
+            $("#dvLadowanie")
+                .clone()
+                .show()
+                .prependTo("#dvZawodnicyContent");
+            zaladujZawodnikow(1);
+        }
+    });
+
 });
 
 function ustawStrone(wartosc) {
@@ -28,10 +48,11 @@ function ustawStrone(wartosc) {
     }    
 }
 function zaladujZawodnikow(str) {
+    var filtr = $("#txtFiltr").val();
     $.ajax({
         method: "POST",
         url: "ZawodnicyServer.aspx",
-        data: { nrStrony: str }
+        data: { nrStrony: str, filtr: filtr }
     })
         .done(function (msg) {
             $("#dvZawodnicyContent").html(msg);
@@ -42,5 +63,5 @@ function zaladujZawodnikow(str) {
             $("#btnPrawo").click(function () {
                 ustawStrone(+1);
             });
-        });
+        }); 
 }

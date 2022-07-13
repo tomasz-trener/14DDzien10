@@ -19,9 +19,10 @@ namespace P02AplikacjaZawodnicy
         {
               Thread.Sleep(1000);
             AktualnaStrona = Convert.ToInt32(Request["nrStrony"]);
+            string filtr = Request["filtr"];
 
             ZawodnicyRepository zr = new ZawodnicyRepository();
-            var wynik= zr.PobierzZawodnikow(AktualnaStrona);
+            var wynik= zr.Szukaj(filtr,AktualnaStrona);
             Zawodnicy = wynik.Zawodnicy.Select(x=>new ZawodnikVM(x)).ToArray();
             LiczbaStron = wynik.LiczbaStron;
             
